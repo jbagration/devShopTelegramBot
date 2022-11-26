@@ -4,7 +4,7 @@ from create_bot import dp, bot
 
 def sql_start():
     global base, cur
-    base = sq.connect('sushi_cool.db')
+    base = sq.connect('sushi_base.db')
     cur = base.cursor()
     if base:
         print('Data base connected OK')
