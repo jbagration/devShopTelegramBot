@@ -1,10 +1,10 @@
 @echo off
 
-call %~dp0DEV_bot\venv\Scripts\activate
+call %~dp0DEV_bot\venv\Scripts\activate # путь
 
 cd %~dp0DEV_bot
 
-set TOKEN=5748276803:AAGTmRo2djQmKm_Rt0WB0JFvrZOHNT_eZJk
+set TOKEN= # токен
 
 python startDev.py
 
